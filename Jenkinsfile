@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         EC2_USER = 'ec2-user'
-        EC2_IP = '3.208.16.194'
+        EC2_IP = '13.220.54.58'
         PRIVATE_KEY = credentials('ec2-key') // We'll configure this in Jenkins
         IMAGE_NAME = 'currency-converter'
     }
