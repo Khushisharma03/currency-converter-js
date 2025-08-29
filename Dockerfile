@@ -1,4 +1,4 @@
-[200~# Use Nginx image to serve static files
+# Use Nginx image to serve static files
 FROM nginx:alpine
 
 # Remove the default Nginx website
